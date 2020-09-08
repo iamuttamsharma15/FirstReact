@@ -1,0 +1,57 @@
+
+ .box{
+  
+   border:1px solid red;
+   border-radius: 10%;
+    width:380px;
+    position: relative;
+    margin:100px;
+    left:220px;
+    overflow: hidden;
+  
+    
+   
+
+    
+}
+.img-box{
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    border:6px solid #faf3dd;
+    position: relative;
+   
+    left:160px;
+    bottom:50px;
+  
+
+
+}
+.top-box{
+    padding:10px;
+    background-color: #fadcac;
+}
+.heading{
+   
+   
+    margin:25px;
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#00416d;
+    padding-bottom:20px;
+    
+    
+}
+
+.info{
+    margin:25px;
+    font-size:1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ec0101;
+}
+.inside-box{
+
+    background-color:#f6f5f5;
+    padding:10px;
+    
+}
