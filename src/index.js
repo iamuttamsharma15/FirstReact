@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from "./App";
-import H1 from "./H";
+import Contacts from "./Contacts";
+import Avatar from "./Avatar";
 const customStyle=
 {
   textAlign:"center",
@@ -11,24 +12,26 @@ ReactDOM.render(
  
   <div>
   <h1 style={customStyle}>My Contacts</h1>
-        <App 
-    name="Uttam Sharma"
-    img="img.jpg"
-    tel="7080246071"
-    email="suttam446@gmail.com"
+    
+    <Avatar img="img1.jpg"/>
+    <App 
+    name={Contacts[0].name}
+    img={Contacts[0].img}
+    tel={Contacts[0].tel}
+    email={Contacts[0].email}
    />
-       <App 
-    name="Akshay Kumar"
-    img="img3.jpg"
-    tel="8108546581"
-    email="akshaykumarm@g.com"
+    <App 
+    name={Contacts[1].name}
+    img={Contacts[1].img}
+    tel={Contacts[1].tel}
+    email={Contacts[1].email}
    />
-     />
-       <App 
-    name="Jack Bauer"
-    img="img1.jpg"
-    tel="+12453253"
-    email="jackbauer@jack.com"
+     
+    <App 
+    name={Contacts[2].name}
+    img={Contacts[2].img}
+    tel={Contacts[2].tel}
+    email={Contacts[2].email}
    />
 
 

@@ -5,8 +5,8 @@
    border-radius: 10%;
     width:380px;
     position: relative;
-    margin:100px;
-    left:220px;
+    margin:50px;
+    left:250px;
     overflow: hidden;
   
     
@@ -54,4 +54,17 @@
     background-color:#f6f5f5;
     padding:10px;
     
+}
+.avatar-box{
+    text-align:"center";
+}
+.avatar{
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    border:6px solid #faf3dd;
+    position: relative;
+   
+    left:410px;
+
 }
