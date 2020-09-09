@@ -1,4 +1,6 @@
 import React from "react";
+ import Details from "./Details";
+
 function App(props)
 {
     return <div className="box">
@@ -6,14 +8,18 @@ function App(props)
     <h1 className="heading">{props.name}</h1>
     </div>
    
-    <div class="inside-box">
+    <div className="inside-box">
 
        
        
-       <img className="img-box"src={props.img}/>
- 
-       <p className="info">{props.tel}</p>
-       <p className="info">{props.email}</p>
+       <img className="img-box"src={props.img} alt=""/>
+        <Details
+            detailInfo={props.tel}
+        />
+        <Details
+            detailInfo={props.email}
+        />
+       
   
 
 
